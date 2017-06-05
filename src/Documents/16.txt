@@ -1,0 +1,19 @@
+>16.Pharmacophoric pattern matching in files of three-dimensional chemical structures: implementation of flexible searching.
+The conformational space of a flexible three-dimensional (3D) molecule can be
+represented for searching purposes by a smoothed bounded distance matrix. Such
+matrices provide an effective way of carrying out flexible searching, but search 
+times can be very long when compared with rigid searches that take no account of 
+conformational flexibility. This paper considers two techniques for minimizing
+the computational requirements of flexible searching. In the first part, we
+compare four different indices that have been suggested for the quantification of
+molecular flexibility, and demonstrate that they produce comparable rankings of
+sets of molecules in order of decreasing flexibility. We then demonstrate that
+the prioritization of a set of structures in order of increasing flexibility can 
+result in substantial reductions in the time requirements of flexible searching
+if some fixed number of hit structures is desired. In the second part, we report 
+an analysis of the 3D crystal structures in the Cambridge Structural Database to 
+generate distance ranges that are tighter than those produced by distance
+geometry. Experiments with a set of six query pharmacophores demonstrate that use
+of these tightened ranges results in substantial reductions in search times, but 
+that this may also lead to a reduction in the number of hit molecules obtained
+from the final conformational search.

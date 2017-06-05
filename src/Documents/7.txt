@@ -1,0 +1,8 @@
+>7. SAMSON: a software package for the biopolymer primary structure analysis.
+The SAMSON package is a tool for advanced analysis of primary DNA, RNA and
+protein structures. The package consists of 16 programs performing statistical
+analysis and comparison of biopolymer sequences, search for homologies,
+translation of DNA and RNA sequences into amino acid sequences, splicing of RNA
+sequences and restriction map construction, recognition of functionally related
+sites in biopolymer molecules, textual analysis of DNA and RNA regulatory sites
+and prediction of intermolecular hybridization sites in DNA and RNA molecules.

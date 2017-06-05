@@ -1,0 +1,10 @@
+>5. Interactive design of generic chemical patterns.
+Every medicinal chemist has to create chemical patterns occasionally for querying
+databases, applying filters or describing functional groups. However, the
+representations of chemical patterns have been so far limited to languages with
+highly complex syntax, handicapping the application of patterns. Graphic pattern 
+editors similar to chemical editors can facilitate the work with patterns. In
+this article, we review the interfaces of frequently used web search engines for 
+chemical patterns. We take a look at pattern editing concepts of standalone
+chemical editors and finally present a completely new, unpublished graphical
+approach to pattern design, the SMARTSeditor.

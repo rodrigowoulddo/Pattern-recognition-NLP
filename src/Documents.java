@@ -8,7 +8,7 @@ import java.nio.file.Files;
 
 public class Documents {
 	
-	private static String path = "C:\\Users\\Rodrigo\\Documents\\docs_trab_padroes\\";
+	private static String path = "src\\Documents\\";
 	
 	
 	public static String getArchieve(String fileName){	

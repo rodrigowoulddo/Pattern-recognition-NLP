@@ -1,0 +1,20 @@
+>4. Single R-Group Polymorphisms (SRPs) and R-cliffs: an intuitive framework for analyzing and visualizing activity cliffs in a single analog series.
+We introduce Single R-Group Polymorphisms (SRPs, pronounced 'sharps'), an
+intuitive framework for analyzing substituent effects and activity cliffs in a
+single congeneric series. A SRP is a pair of compounds that differ only in a
+single R-group position. Because the same substituent pair may occur in multiple 
+SRPs in the series (i.e., with different combinations of substituents at the
+other R-group positions), SRP analysis makes it easy to identify systematic
+substituent effects and activity cliffs at each point of variation (R-cliffs).
+SRPs can be visualized as a symmetric heatmap where each cell represents a
+particular pair of substituents color-coded by the average difference in activity
+between the compounds that contain that particular SRP. SRP maps offer several
+advantages over existing techniques for visualizing activity cliffs: 1) the
+chemical structures of all the substituents are displayed simultaneously on a
+single map, thus directly engaging the pattern recognition abilities of the
+medicinal chemist; 2) it is based on R-group decomposition, a natural paradigm
+for generating and rationalizing SAR; 3) it uses a heatmap representation that
+makes it easy to identify systematic trends in the data; 4) it generalizes the
+concept of activity cliffs beyond similarity by allowing the analyst to sort the 
+substituents according to any property of interest or place them manually in any 
+desired order.

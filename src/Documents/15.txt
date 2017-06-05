@@ -1,0 +1,23 @@
+>15. An automated computer vision and robotics-based technique for 3-D flexible biomolecular docking and matching.
+The generation of binding modes between two molecules, also known as molecular
+docking, is a key problem in rational drug design and biomolecular recognition.
+Docking a ligand, e.g., a drug molecule or a protein molecule, to a protein
+receptor, involves recognition of molecular surfaces as molecules interact at
+their surface. Recent studies report that the activity of many molecules induces 
+conformational transitions by 'hinge-bending', which involves movements of
+relatively rigid parts with respect to each other. In ligand-receptor binding,
+relative rotational movements of molecular substructures about their common
+hinges have been observed. For automatically predicting flexible molecular
+interactions, we adapt a new technique developed in Computer Vision and Robotics 
+for the efficient recognition of partially occluded articulated objects. These
+type of objects consist of rigid parts which are connected by rotary joints
+(hinges). Our approach is based on an extension and generalization of the
+Geometric Hashing and Generalized Hough Transform paradigm for rigid object
+recognition. Unlike other techniques which match each part individually, our
+approach exploits forcefully and efficiently enough the fact that the different
+rigid parts do belong to the same flexible molecule. We show experimental results
+obtained by an implementation of the algorithm for rigid and flexible docking.
+While the 'correct', crystal-bound complex is obtained with a small RMSD,
+additional, predictive 'high scoring' binding modes are generated as well. The
+diverse applications and implications of this general, powerful tool are
+discussed.

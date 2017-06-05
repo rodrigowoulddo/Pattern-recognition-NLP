@@ -1,0 +1,12 @@
+>17. Inhibitors of prolyl endopeptidase: characterization of the pharmacophoric pattern using conformational analysis and 3D-QSAR.
+A structure-activity study has been carried out on several compounds known as
+inhibitors of the serine protease prolyl endopeptidase. Conformational analysis
+has been done using different molecular mechanics methods such as molecular
+dynamics, or a randomized conformational search method. The conformers obtained
+were classified using geometric and energetic criteria. A pattern recognition
+analysis was done in order to divide conformers according to families. The
+resulting dominant families, for all compounds investigated, showed very similar 
+geometric features. Based on the lowest energy conformers obtained after
+randomized conformational analysis, a 3D-QSAR model was established using the
+CoMFA approach. The validity of this model was verified by predicting correctly
+the activity of other molecules not used in the construction of this model.

@@ -1,0 +1,7 @@
+>14.PdbMotif--a tool for the automatic identification and display of motifs in protein structures.
+A program PdbMotif, which automatically identifies protein motifs in a protein
+data bank file and generates a script file which can be read directly by the
+molecular rendering program RasMol, is described. PdbMotif accepts the standard
+PROSITE pattern syntax and will scan the PROSITE pattern database or a set of
+user defined patterns. Any motifs detected are automatically highlighted in the
+RasMol image.

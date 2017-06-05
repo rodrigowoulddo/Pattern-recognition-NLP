@@ -1,0 +1,15 @@
+>8. Domain discovery method for topological profile searches in protein structures.
+We describe a method for automated domain discovery for topological profile
+searches in protein structures. The method is used in a system TOPStructure for
+fast prediction of CATH classification for protein structures (given as PDB
+files). It is important for profile searches in multi-domain proteins, for which 
+the profile method by itself tends to perform poorly. We also present an O(C(n)k 
++ nk(2)) time algorithm for this problem, compared to the O(C(n)k + (nk)(2)) time
+used by a trivial algorithm (where n is the length of the structure, k is the
+number of profiles and C(n) is the time needed to check for a presence of a given
+motif in a structure of length n). This method has been developed and is
+currently used for TOPS representations of protein structures and prediction of
+CATH classification, but may be applied to other graph-based representations of
+protein or RNA structures and/or other prediction problems. A protein structure
+prediction system incorporating the domain discovery method is available at
+http://bioinf.mii.lu.lv/tops/.

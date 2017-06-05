@@ -1,0 +1,10 @@
+>10. Generative models for chemical structures.
+We apply recently developed techniques for pattern recognition to construct a
+generative model for chemical structure. This approach can be viewed as
+ligand-based de novo design. We construct a statistical model describing the
+structural variations present in a set of molecules which may be sampled to
+generate new structurally similar examples. We prevent the possibility of
+generating chemically invalid molecules, according to our implicit hydrogen
+model, by projecting samples onto the nearest chemically valid molecule. By
+populating the input set with molecules that are active against a target, we show
+how new molecules may be generated that will likely also be active against the

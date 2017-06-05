@@ -1,0 +1,24 @@
+>3. Discriminative Chemical Patterns: Automatic and Interactive Design.
+The classification of molecules with respect to their inhibiting, activating, or 
+toxicological potential constitutes a central aspect in the field of
+cheminformatics. Often, a discriminative feature is needed to distinguish two
+different molecule sets. Besides physicochemical properties, substructures and
+chemical patterns belong to the descriptors most frequently applied for this
+purpose. As a commonly used example of this descriptor class, SMARTS strings
+represent a powerful concept for the representation and processing of abstract
+chemical patterns. While their usage facilitates a convenient way to apply
+previously derived classification rules on new molecule sets, the manual
+generation of useful SMARTS patterns remains a complex and time-consuming
+process. Here, we introduce SMARTSminer, a new algorithm for the automatic
+derivation of discriminative SMARTS patterns from preclassified molecule sets.
+Based on a specially adapted subgraph mining algorithm, SMARTSminer identifies
+structural features that are frequent in only one of the given molecule classes. 
+In comparison to elemental substructures, it also supports the consideration of
+general and specific SMARTS features. Furthermore, SMARTSminer is integrated into
+an interactive pattern editor named SMARTSeditor. This allows for an intuitive
+visualization on the basis of the SMARTSviewer concept as well as interactive
+adaption and further improvement of the generated patterns. Additionally, a new
+molecular matching feature provides an immediate feedback on a pattern's matching
+behavior across the molecule sets. We demonstrate the utility of the SMARTSminer 
+functionality and its integration into the SMARTSeditor software in several
+different classification scenarios.

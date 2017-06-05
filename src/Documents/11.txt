@@ -1,0 +1,11 @@
+>11. Computer-assisted studies of molecular structure and carcinogenic activity.
+Both quantitative and qualitative studies of the structure-activity relationships
+(SAR) of carcinogenic compounds are discussed. Using the ADAPT software system,
+examples are given of (1) predicting the gas and liquid chromatographic retention
+behavior of polycyclic aromatic compounds, (2) predicting the carcinogenicity of 
+N-nitrosamines, and (3) predicting the mutagenic behavior of pesticides and other
+compounds in short-term test systems. It is concluded that the complexity and
+lack of understanding of the carcinogenic response should not prevent scientists 
+from searching for useful empirical relationships between molecular structure and
+carcinogenicity. Computer generated molecular descriptors and statistical and
+pattern recognition techniques can be useful tools in this research.

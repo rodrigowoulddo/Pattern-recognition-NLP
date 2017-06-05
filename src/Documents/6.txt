@@ -1,0 +1,15 @@
+>6. Bioinformatics in glycomics: glycan characterization with mass spectrometric data using SimGlycan.
+Mass spectrometry (MS), with its low sample requirement and high sensitivity, has
+been the predominantly used methodology for characterization and elucidation of
+glycan structures. However, manual interpretation of MS data is complex and
+tedious due to large number of product ions observed and also due to the
+variation in their m/z values under various experimental conditions. We present
+an automated tool, SimGlycan, for this purpose, which accepts raw/standard MS
+data files as input and characterizes the associated glycan structure with high
+accuracy using database searching and scoring techniques. Not only does it
+predict the glycan structure using an MS/MS database searching technique, but it 
+also facilitates predicting novel glycans by drawing a glycan and mapping it onto
+an experimental spectrum to check the degree of proximity between the theoretical
+and the experimental glycans. It serves as a platform for developing advanced
+tools that may be used for glycopeptide identification using MS data and 3D
+structural analysis of glycans with a few improvements in the existing features.
