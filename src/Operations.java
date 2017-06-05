@@ -248,15 +248,21 @@ public class Operations {
 		int[][] frequancyMatrix = generateFrequencyMatrix(listofWords, texts);
 
 		float[][] tf = generateTF(frequancyMatrix);
+		
+		int[][] df = generateDF(listofWords, texts);
+		
+		float[][] idf = generateIDF(texts.length, df);
+		
+		float[][] tf_idf = generateTfIdfMatrix(tf, idf);
 
 		ArrayList<Ranked> rank = new ArrayList<Ranked>();
 
-		for (int i = 0; i < frequancyMatrix.length; i++) {
+		for (int i = 0; i < tf_idf.length; i++) {
 			Ranked r = new Ranked();
 			r.name = listofWords[i];
-			int countOfWord = 0;
-			for (int j = 0; j < frequancyMatrix[i].length; j++) {
-				countOfWord += Integer.parseInt(frequancyMatrix[i][j] + "");
+			float countOfWord = 0;
+			for (int j = 0; j < tf_idf[i].length; j++) {
+				countOfWord += Float.parseFloat(tf_idf[i][j] + "");
 			}
 			r.tfidf = countOfWord;
 			rank.add(r);

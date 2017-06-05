@@ -50,7 +50,7 @@ public class App {
 		Operations.printArray(Operations.generateCompleteRank(words, texts));
 		System.out.println("------------------------");
 		
-		System.out.println("All words TF:");
+		System.out.println("All words TF-IDF:");
 		Operations.printArray(Operations.generateSuperTfList(texts),25);
 		
 		
