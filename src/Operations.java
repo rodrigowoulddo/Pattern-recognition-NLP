@@ -241,10 +241,6 @@ public class Operations {
 
 		String[] listofWords = set.toArray(new String[set.size()]);
 
-		// for (int i = 0; i < listofWords.length; i++) {
-		// listofWords[i] = removeComn(listofWords[i]);
-		// }
-
 		int[][] frequancyMatrix = generateFrequencyMatrix(listofWords, texts);
 
 		float[][] tf = generateTF(frequancyMatrix);
@@ -284,7 +280,7 @@ public class Operations {
 	public static void printMatrix(float[][] matrix) {
 		for (int i = 0; i < matrix.length; i++) {
 			for (int j = 0; j < matrix[i].length; j++) {
-				System.out.print(matrix[i][j] + " ");
+				System.out.print(String.format("%.2f",matrix[i][j]) + " ");
 			}
 			System.out.println();
 		}
