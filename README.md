@@ -1,6 +1,6 @@
 # Pattern Recognition NLP
 
-* **Plataform:** Desktop
+* **Platform:** Desktop
 * **Aplication Language:** Portuguese (BR)
 * **Code Language:** Portuguese (BR)
 
